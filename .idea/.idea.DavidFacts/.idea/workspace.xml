@@ -6,23 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="058eae5d-b2a7-44f4-a275-4a3203821e72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/boy.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/boy.imageset/boy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/children.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/children.imageset/children.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/data-management.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/data-management.imageset/data-management.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/tennis.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/tennis.imageset/tennis.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/tent.imageset/Contents.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts.iOS/Assets.xcassets/tent.imageset/tent.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.DavidFacts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DavidFacts/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidFacts.Android/DavidFacts.Android.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts.Android/DavidFacts.Android.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidFacts.Android/Properties/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts.Android/Properties/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidFacts.iOS/DavidFacts.iOS.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts.iOS/DavidFacts.iOS.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidFacts/DavidData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts/DavidData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DavidFacts/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DavidFacts/Models/DavidFact.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts/Models/DavidFact.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,15 +18,18 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Users/davidmarquardt/Documents/WCTC/MobileAppDevelopment/DavidFacts/DavidFacts/DavidData.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/davidmarquardt/Documents/WCTC/MobileAppDevelopment/DavidFacts/DavidFacts/DavidData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DavidFacts/DavidData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/DavidFacts/MainPage.xaml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" />
       <option value="$PROJECT_DIR$/DavidFacts/DavidData.cs" />
       <option value="$PROJECT_DIR$/DavidFacts/MainPage.xaml" />
+      <option value="$PROJECT_DIR$/DavidFacts/Models/DavidFact.cs" />
+      <option value="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" />
     </changedPaths>
   </component>
   <component name="InvalidFacetManager">
@@ -55,6 +43,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.35019454" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="Device#class com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSSimulatorKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider#Xamarin.iOS: DavidFacts.iOS" value="iPhone 11" />
     <property name="DeviceKind#com.jetbrains.rider.run.xamarin.ios.devices.XamarinIOSDevicesProvider" value="Simulator" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
@@ -106,7 +96,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="database" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
