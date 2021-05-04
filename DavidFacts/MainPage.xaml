@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DavidFacts"
+             x:Class="DavidFacts.MainPage">
+
+    <StackLayout>
+        <Image Source="tennis.png" HeightRequest="100"></Image>
+        <!-- Place new controls here -->
+        <ListView ItemsSource="{x:Static local:DavidData.All}" ItemSelected="OnSelection">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="5, 5, 0, 5" Orientation="Horizontal">
+                            <Label Text="{Binding Title}" FontSize="Medium" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
