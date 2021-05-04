@@ -98,6 +98,16 @@
         <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json">
             <Visible>false</Visible>
         </ImageAsset>
+        <ImageAsset Include="Assets.xcassets\data-management.imageset\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\tennis.imageset\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\children.imageset\children.png" />
+        <ImageAsset Include="Assets.xcassets\boy.imageset\boy.png" />
+        <ImageAsset Include="Assets.xcassets\data-management.imageset\data-management.png" />
+        <ImageAsset Include="Assets.xcassets\tennis.imageset\tennis.png" />
+        <ImageAsset Include="Assets.xcassets\tent.imageset\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\children.imageset\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\boy.imageset\Contents.json" />
+        <ImageAsset Include="Assets.xcassets\tent.imageset\tent.png" />
     </ItemGroup>
     <ItemGroup>
         <Reference Include="System" />
@@ -111,9 +121,16 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\DavidFacts\DavidFacts.csproj">
-            <Project>{BABBD56A-CD17-4987-8455-DB588D6DC404}</Project>
+            <Project>{AD39442C-4A16-4E62-AE8F-E9CD57A8F24B}</Project>
             <Name>DavidFacts</Name>
         </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Assets.xcassets\data-management.imageset\" />
+      <Folder Include="Assets.xcassets\tennis.imageset\" />
+      <Folder Include="Assets.xcassets\tent.imageset\" />
+      <Folder Include="Assets.xcassets\children.imageset\" />
+      <Folder Include="Assets.xcassets\boy.imageset\" />
     </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

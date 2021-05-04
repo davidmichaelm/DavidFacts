@@ -5,14 +5,17 @@
              x:Class="DavidFacts.MainPage">
 
     <StackLayout>
-        <Image Source="tennis.png" HeightRequest="100"></Image>
         <!-- Place new controls here -->
         <ListView x:Name="ListView" ItemSelected="OnSelection">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Padding="5, 5, 0, 5" Orientation="Horizontal">
-                            <Label Text="{Binding Title}" FontSize="Medium" />
+                            <Image 
+                                Source="{Binding Image}"
+                                HeightRequest="100"
+                                Margin="10, 0"/>
+                            <Label Text="{Binding Title}" FontSize="Medium" VerticalOptions="Center" />
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>

@@ -14,7 +14,6 @@
         <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
         <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
         <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-        <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
         <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
         <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     </PropertyGroup>
@@ -67,7 +66,7 @@
     </ItemGroup>
     <ItemGroup>
         <ProjectReference Include="..\DavidFacts\DavidFacts.csproj">
-            <Project>{BABBD56A-CD17-4987-8455-DB588D6DC404}</Project>
+            <Project>{AD39442C-4A16-4E62-AE8F-E9CD57A8F24B}</Project>
             <Name>DavidFacts</Name>
         </ProjectReference>
     </ItemGroup>
