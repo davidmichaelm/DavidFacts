@@ -18,7 +18,6 @@ namespace DavidFacts
                 new DavidData() { Title = "Getting into Technology", Description = "URL of the first website he made was pingpongdude.com.br"},
                 new DavidData() { Title = "Kids", Description = "Has two beautiful kids, and another on the way!"},
                 new DavidData() { Title = "Summer Camp", Description = "Worked at a summer camp in Wautoma, WI for five summers."},
-                
             };
         }
     }

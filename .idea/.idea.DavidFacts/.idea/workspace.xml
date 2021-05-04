@@ -6,8 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="058eae5d-b2a7-44f4-a275-4a3203821e72" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.DavidFacts/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DavidFacts/DavidData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DavidFacts/AsyncLazy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DavidFacts/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DavidFacts/Data/DavidFactDatabase.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DavidFacts/Models/DavidFact.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DavidFacts/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DavidFacts/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DavidFacts/DavidData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts/DavidData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DavidFacts/MainPage.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts/MainPage.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,13 +21,24 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" />
+      <option value="$PROJECT_DIR$/DavidFacts/Constants.cs" />
+      <option value="$PROJECT_DIR$/DavidFacts/DavidFactsDatabase.cs" />
+      <option value="$PROJECT_DIR$/DavidFacts/AsyncLazy.cs" />
+      <option value="$PROJECT_DIR$/DavidFacts/DavidFactDatabase.cs" />
+      <option value="$PROJECT_DIR$/DavidFacts/DavidFact.cs" />
       <option value="$PROJECT_DIR$/DavidFacts/DavidData.cs" />
       <option value="$PROJECT_DIR$/DavidFacts/MainPage.xaml" />
+      <option value="$PROJECT_DIR$/DavidFacts/Models/DavidFact.cs" />
+      <option value="$PROJECT_DIR$/DavidFacts/MainPage.xaml.cs" />
     </changedPaths>
   </component>
   <component name="InvalidFacetManager">
@@ -46,7 +63,7 @@
     <property name="settings.editor.selected.configurable" value="AndroidSettingsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="Xamarin.Android.DavidFacts.Android">
+  <component name="RunManager" selected="Xamarin.iOS.DavidFacts.iOS">
     <configuration name="DavidFacts.Android" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/DavidFacts.Android/DavidFacts.Android.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -72,8 +89,16 @@
       <option name="presentableId" value="Default" />
       <updated>1620085769024</updated>
       <workItem from="1620085788594" duration="1681000" />
-      <workItem from="1620087688514" duration="2800000" />
+      <workItem from="1620087688514" duration="3732000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1620090806122</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1620090806123</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +118,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>

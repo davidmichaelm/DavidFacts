@@ -7,7 +7,7 @@
     <StackLayout>
         <Image Source="tennis.png" HeightRequest="100"></Image>
         <!-- Place new controls here -->
-        <ListView ItemsSource="{x:Static local:DavidData.All}" ItemSelected="OnSelection">
+        <ListView x:Name="ListView" ItemSelected="OnSelection">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

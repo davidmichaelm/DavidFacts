@@ -14,11 +14,38 @@ namespace DavidFacts
             InitializeComponent();
         }
         
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            
+            DavidFactDatabase database = await DavidFactDatabase.Instance;
+
+            var items = await database.GetItemsAsync();
+            items.ForEach(async item => await database.DeleteItemAsync(item));
+            
+            var facts = new List<DavidFact>()
+            {
+                new DavidFact() { Title = "Early Years", Description = "He was born in Milwaukee, but grew up in Brazil."},
+                new DavidFact() { Title = "Sports", Description = "Started playing tennis at 10 years old."},
+                new DavidFact() { Title = "Getting into Technology", Description = "URL of the first website he made was pingpongdude.com.br"},
+                new DavidFact() { Title = "Kids", Description = "Has two beautiful kids, and another on the way!"},
+                new DavidFact() { Title = "Summer Camp", Description = "Worked at a summer camp in Wautoma, WI for five summers."},
+            };
+
+            facts.ForEach(async fact =>
+            {
+                await database.SaveItemAsync(fact);
+            });
+            
+            ListView.ItemsSource = await database.GetItemsAsync();
+        }
+        
         void OnSelection(object sender, SelectedItemChangedEventArgs e) {
             if (e.SelectedItem == null)
             {
-                return; }
-            DavidData fact = (DavidData)e.SelectedItem;
+                return;
+            }
+            DavidFact fact = (DavidFact)e.SelectedItem;
             DisplayAlert(fact.Title, fact.Description, "Ok");
         }
     }
